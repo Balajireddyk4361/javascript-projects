@@ -1,0 +1,17 @@
+// if you want to requist group of elements as one element
+//where allowed Duplicates & heterogeneous elements
+// array elements are string based indexing
+// -ve indexing is not possible
+// order is maintained
+
+// let emps=['bala','hari','mmda','sankar','ravi']
+// console.log(emps[0])
+// console.log(emps[1])
+// console.log(emps[2])
+// console.log(emps[3])
+// console.log(emps[4])
+
+let marks=[90,45,75,86,60]
+for(mark of marks){
+    console.log(marks)
+}
