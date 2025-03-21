@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <style>
+           button{
+            background-color: blue;
+           } 
+        
+        </style>
+
+    </head>
+    <body>
+
+
+        
+        <button class="bala" onmouseover="changecolor()" >onmouseover</button><br>
+        <button class="bala1" onmouseout="changecolor1()">onmouseout</button><br>
+        <button id="bala2" onclick="changecolor2() ">onclick</button><br>
+        <button id="bala3" ondblclick="changecolor3() ">ondblclick</button><br>
+        <button id="bala4" onfocus="changecolor4() ">onfocus</button><br>
+        <button id="bala5" onblur="changecolor5() ">onblur</button><br>
+
+        
+    </body>
+    <script>
+        function changecolor(){
+            //alert('hello Balajireddy')
+            document.querySelector(".bala").style="background-color: aqua;"
+        }
+            function changecolor1(){
+               document.querySelector(".bala1").style="background-color: red;"
+            }
+           function changecolor2(){
+            document.getElementById("bala2").style="background-color: yellow;"
+        }
+            
+           function changecolor3(){
+            document.getElementById("bala3").style="background-color: orange;"
+        }
+            
+           function changecolor4(){
+            document.getElementById("bala4").style="background-color: black;"
+        }
+            
+           function changecolor5(){
+            document.getElementById("bala5").style="background-color: brown;"
+        }
+
+    </script>
+</html>
