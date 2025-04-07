@@ -34,6 +34,17 @@ else{
 
 
 // ternary operator "?"
-let  num=10
+/*let  num=10
 
-num %2 ==0 ? console.log("even") : console.log('odd')
+num %2 ==0 ? console.log("even") : console.log('odd')*/
+/*
+let number=22
+
+number >=100 && number <= 999 ? console.log("Three digit no") :  console.log("Not a Three digit no")*/
+
+if("balaji"){
+    console.log('GM')
+}
+else{
+    console.log("GN")
+}
